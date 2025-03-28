@@ -1,0 +1,30 @@
+html {
+    font-size: larger;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.no-dot {
+    list-style: none;
+    font-size: 22px;
+}
+
+img {
+    width:auto;
+    height: 300px;
+}
+
+h1, h2, h3 {
+    color: rgb(145, 76, 11);
+}
+
+a {
+    color: rgb(7, 11, 32);
+}
+
+#menu {
+    color: rgb(0, 0, 0);
+}
+
+footer div {
+    height: 3em;
+}
