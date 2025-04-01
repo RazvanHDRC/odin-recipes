@@ -1,6 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     font-size: larger;
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(202, 174, 96, 0.301);
+}
+
+.main-menu {
+    text-align: center;
 }
 
 .no-dot {
@@ -9,22 +28,77 @@ html {
 }
 
 img {
-    width:auto;
-    height: 300px;
+    width: auto;
+    height: 20em;
+    border-radius: 5%;
+}
+
+.food-img {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.both-halves {
+    display: flex;
+}
+
+.left-half {
+    display: inline;
+    height: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.right-half {
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    margin-top: 100px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.back-button {
+    display: block;
+    width: fit-content;
+    height: 20px;
+    background-color: rgba(115, 131, 177, 0.178);
+    margin: 10px 0px 0px 10px;
+    text-align: center;
 }
 
 h1, h2, h3 {
     color: rgb(145, 76, 11);
+    margin: 20px 0 30px 0;
 }
+
 
 a {
     color: rgb(7, 11, 32);
 }
 
+.paragraph {
+    padding: 0px 30px 0px 30px;
+}
+
 #menu {
     color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px;
 }
 
 footer div {
     height: 3em;
+}
+
+.box-title {
+    height: 50px;
+    margin: 30px;
+}
+
+.list {
+    padding: 0px 200px 0px 200px;
+    
 }
